@@ -1,0 +1,31 @@
+创建数据库
+create table customers(
+id int primary key auto_increment,
+name varchar(30) not null unique,
+address varchar(30),
+phone varchar(30)
+);
+给数据库name字段添加唯一标示
+alter table customers add constraint name_uk unique(name);
+
+添加C3P0数据库连接池并配置
+添加MYSQL运行库
+
+创建数据源 创建数据源关闭方法
+（JdbcUtils.java）
+
+创建set和get方法的类
+
+添加DBUtils运行库
+
+编写DAO
+
+编写DAO接口
+
+编写实现DAO接口和继承DAO
+
+
+添加customer
+点击 add new Customer 超链接到add.jsp
+新建add.jsp
+在Servlet,add方法中添加功能
